@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/javAlborz/gcp_docker_example/testing', '.']
+  args: ['build', '-t', 'gcr.io/dtumlopsnew-374310/testing', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/javAlborz/gcp_docker_example/testing']
+  args: ['push', 'gcr.io/dtumlopsnew-374310/testing']
